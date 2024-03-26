@@ -31,7 +31,3 @@ This NextAuth app provides the following authentication functionalities:
 - **Signup:** New users can create accounts.
 - **Verification Email:** Verification emails are sent upon signup to verify user accounts.
 - **Forgot Password:** Users can request password reset emails if they forget their passwords.
-
-```
-
-```
