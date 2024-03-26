@@ -1,6 +1,6 @@
 # NextAuth App
 
-This is a Next.js project bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), integrated with NextAuth for user authentication.
+This is a Next.js project bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), an app for user authentication.
 
 ## Getting Started
 
