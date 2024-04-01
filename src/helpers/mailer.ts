@@ -34,7 +34,7 @@ export const sendEmail = async ({email, emailType, userId}:any) =>{
             to: email, 
             subject: emailType == "VERIFY" ? "Verify your email": "Reset your password",
             html: `<h1>Welcome to Next Auth App!</h1>
-            <p>Please ${emailType == "VERIFY" ? "verify your email" : "reset your password"} by clicking <a href="${process.env.DOMAIN}/verifiyemail?token=${hashedToken}">here</a>
+            <p>Please ${emailType == "VERIFY" ? "verify your email" : "reset your password"} by clicking <a href="${process.env.DOMAIN}/verifyemail?token=${hashedToken}">here</a>
               or copy-pasting the below link in your browser:</p>
             <p>${process.env.DOMAIN}/verifyemail?token=${hashedToken}</p>
             <p>If you didn't request this, you can safely ignore this email.</p>
