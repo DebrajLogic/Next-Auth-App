@@ -12,6 +12,7 @@ function VerifyEmailPage() {
     try {
       await axios.post("/api/users/verifyemail", { token });
       setVerified(true);
+      setError(false);
     } catch (error: any) {
       setError(true);
       console.log(error.response.data);
@@ -19,11 +20,13 @@ function VerifyEmailPage() {
   };
 
   useEffect(() => {
+    setError(false);
     const urlToken = window.location.search.split("=")[1];
     setToken(urlToken || "");
   }, []);
 
   useEffect(() => {
+    setError(false);
     if (token.length > 0) {
       verifyUserEmail();
     }
