@@ -72,7 +72,7 @@ function LoginPage() {
         Login
       </button>
       <p>
-        Don't have an account?{" "}
+        Don&apos;t have an account?{" "}
         <Link className="text-blue-300" href="/signup">
           Sign up
         </Link>
