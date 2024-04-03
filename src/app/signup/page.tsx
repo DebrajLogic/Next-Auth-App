@@ -86,7 +86,7 @@ function SignupPage() {
         Sign Up
       </button>
       <p>
-        Already Registered?{" "}
+        Already Have an Account?{" "}
         <Link className="text-blue-300" href="/login">
           Login
         </Link>
